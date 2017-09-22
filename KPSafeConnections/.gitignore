@@ -1,0 +1,5 @@
+*
+*/
+!.gitignore
+!safe.sample.ps1
+!safe.sample.xml
