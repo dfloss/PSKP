@@ -39,7 +39,7 @@ if (Test-Path "$($Script:Config.ConnectionsFolder)\$($Script:Config.DefaultSafe)
 }
 Else{
     Write-Warning "No Default KeePass database connection has been created"
-    if (Read-Host -Prompt "Would you like to create a default KeePass Database Connection?(Y/n)" -eq 'y'){
+    if ((Read-Host -Prompt "Would you like to create a default KeePass Database Connection?(Y/n)") -eq 'y'){
         New-KPSafeConnection -SafeName $Script:Config.DefaultSafe -Interactive
         $Script:KPSession = Get-KPSafeconnection -Name $Script:Config.DefaultSafe
     }
