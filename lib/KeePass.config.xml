@@ -5,15 +5,20 @@
 		<OmitItemsWithDefaultValues>true</OmitItemsWithDefaultValues>
 	</Meta>
 	<Application>
-		<LastUpdateCheck>2017-07-24T14:23:19Z</LastUpdateCheck>
+		<LastUpdateCheck>2018-01-13T16:32:54Z</LastUpdateCheck>
 		<LastUsedFile>
-			<Path>\\coehp1\server\TechServ\notpasswords.kdbx</Path>
+			<Path>..\..\..\..\Documents\passwords.kdbx</Path>
 			<CredProtMode>Obf</CredProtMode>
 			<CredSaveMode>NoSave</CredSaveMode>
 		</LastUsedFile>
 		<MostRecentlyUsed>
 			<MaxItemCount>12</MaxItemCount>
 			<Items>
+				<ConnectionInfo>
+					<Path>..\..\..\..\Documents\passwords.kdbx</Path>
+					<CredProtMode>Obf</CredProtMode>
+					<CredSaveMode>NoSave</CredSaveMode>
+				</ConnectionInfo>
 				<ConnectionInfo>
 					<Path>\\coehp1\server\TechServ\notpasswords.kdbx</Path>
 					<CredProtMode>Obf</CredProtMode>
@@ -27,7 +32,7 @@
 			</Items>
 		</MostRecentlyUsed>
 		<WorkingDirectories>
-			<Item>Database@T:\</Item>
+			<Item>Database@..\..\..\..\Documents</Item>
 		</WorkingDirectories>
 		<Start>
 			<CheckForUpdate>true</CheckForUpdate>
@@ -41,8 +46,8 @@
 	</Application>
 	<Logging />
 	<MainWindow>
-		<X>-7</X>
-		<Y>75</Y>
+		<X>320</X>
+		<Y>52</Y>
 		<Width>1452</Width>
 		<Height>912</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
@@ -98,6 +103,7 @@
 			<OverrideUIDefault>false</OverrideUIDefault>
 		</PasswordFont>
 		<BannerStyle>WinVistaBlack</BannerStyle>
+		<ShowRecycleConfirmDialog>false</ShowRecycleConfirmDialog>
 		<DataEditorFont>
 			<Family>Microsoft Sans Serif</Family>
 			<Size>8.25</Size>
@@ -146,6 +152,10 @@
 			</Association>
 			<Association>
 				<DatabasePath>\\coehp1\server\TechServ\notpasswords.kdbx</DatabasePath>
+				<Password>true</Password>
+			</Association>
+			<Association>
+				<DatabasePath>..\..\..\..\Documents\passwords.kdbx</DatabasePath>
 				<Password>true</Password>
 			</Association>
 		</KeySources>
